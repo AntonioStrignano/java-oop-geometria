@@ -6,11 +6,11 @@ public class Rettangolo {
 	
 	void calcolaArea() {
 		int area = base * altezza;
-		System.out.println("area rettangolo: " + area);
+		System.out.println("Area del tuo rettangolo: " + area);
 	}
 	
 	void calcolaPerimetro() {
 		int perimetro = (base * 2) + (altezza * 2);
-		System.out.println("perimetro rettangolo: " + perimetro);
+		System.out.println("Perimetro del tuo rettangolo: " + perimetro);
 	}
 }
